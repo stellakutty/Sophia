@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://git.heroku.com/stellabott.git /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/stellaboty/Sophia /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
